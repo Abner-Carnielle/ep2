@@ -34,7 +34,7 @@ body{
 }
 .titulo{
     position: relative;
-    left: 22%;
+    left: 22%; /* define a posição do elemento de acordo com a borda esquerda da página */
     width: 50%;
     text-align: center;
     font-size: xx-large;
@@ -91,7 +91,7 @@ header{ /* cabeçalho da página */
 }
 
 .area{
-    color: rgb(61, 61, 61);
+    color: rgb(61, 61, 61); 
     text-decoration: none;
     border: 2px solid blue;
     padding: 3px 7px;
@@ -113,7 +113,7 @@ nav .area:hover{
 }
 footer{
     background-color: #d7b52c;
-    line-height: 0;
+    line-height: 0; /* controla o espaço entre as linhas de um texto */
 }
 .fot{ /* footer centralizado */
     margin-left: 23%; /* margem para esquerda  */
@@ -164,8 +164,7 @@ footer{
 
 /* abner */
 .duat{
-    background-image: url(../imagens/duat.png);
-    max-width: 100%;
+    background-image: url(../imagens/duat.png); /* adiciona uma imagem ao fundo */
 }
 
 /* henrique */
